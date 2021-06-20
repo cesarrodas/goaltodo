@@ -1,0 +1,33 @@
+.bg {
+  /* background-color: brown; */
+  height: 100vh;
+  width: 20%;
+  position: relative;
+  border-right: solid 1px #d3d3d3;
+  transition: transform 0.5s;
+}
+
+.hide {
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.newGoalButton {
+  background-color: white;
+  border: none;
+  padding: none;
+  margin: none; 
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+.newGoalButton:hover {
+  cursor: pointer;
+  content: "New Goal";
+}
+
+.goalsContainer {
+  margin-top: 46px;
+  border-top: solid 1px #d3d3d3;
+}
